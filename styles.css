@@ -1,0 +1,320 @@
+body {
+  background-color: #e4f9f5;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #e4f9f5;
+  width: 100%;
+  font-size: 5.625rem; /*100%=16px=1em 90px/16=562.5% 90px=5.625em*/
+  position: relative;
+  top: 75px;
+  font-family: 'Finger Paint', cursive;
+}
+
+hr {
+  width: 66%;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+}
+
+/* .top {
+
+} */
+
+.title {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Finger Paint', cursive;
+  font-size: 3.5rem;
+}
+
+#quote-top {
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.wallpaper {
+  width: 100%;
+  height: 100%;
+}
+
+.intro {
+  height: 600px;
+  text-align: center;
+  position: absolute;
+  right: 50%;
+}
+
+.future {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  background-color: #99EDDF;
+  border: none;
+  color: #e4f9f5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #e4f9f5;
+  color: #99EDDF;
+}
+
+.javascript {
+  margin: 20px;
+  color:  #e4f9f5;
+  font-family: 'Finger Paint', cursive;
+  font-size: 32px;
+}
+
+#should-wang {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.mid1 {
+  margin: 0 auto;
+  width: 95%;
+  background-color: #E4F9F5;
+  text-align: center;
+}
+
+.lead {
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.seperator-top {
+  border: dotted  #99EDDF 6px;
+  border-bottom: none;
+  width: 33%;
+  margin: 0 auto;
+}
+
+.about {
+  font-size: 1.5rem;
+  margin: auto;
+  width: 75%;
+  text-align: left;
+}
+
+.indent {
+  text-indent: 20%
+}
+
+.profile-pic {
+  margin: auto;
+  width: 55%;
+}
+
+.picture {
+  margin: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.mid2 {
+  background-color: #99EDDF;
+}
+
+.mid2-box {
+  margin: 0 auto;
+  width: 75%
+}
+
+.info {
+  margin: 0 auto;
+  width: 75%;
+  text-align: left;
+}
+
+.itext {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.external {
+  text-decoration: none;
+}
+
+.external:hover {
+  background-color: #E4F9F5;
+}
+
+.mid3 {
+  background-color: #E4F9F5;
+}
+
+.mid3-box {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.skills-box {
+box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 35%; background-color: #f44336;} /* Red */
+.python {width: 60%; background-color: #808080;} /* Dark Grey */
+.bootstrap {width: 45%; background-color: #BF55EC;} /* MEDIUM PURPLE */
+.wordpress {width: 45%; background-color: #FFF600;} /* MEDIUM YELLOW */
+
+.ser {
+  background-color: #99EDDF;
+}
+
+.ser-box {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.assist {
+  color: #e4f9f5;
+}
+
+.help {
+  color: #e4f9f5;
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.help-list {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.main {
+  font-weight: bold;
+}
+
+.sep-white {
+  border: dotted  #E4F9F5 6px;
+  border-bottom: none;
+  width: 11%;
+  margin: 0 auto;
+}
+
+.con {
+  width: 100%;
+  color: #e4f9f5;
+  background-color: #434242;
+  position: absolute;
+}
+
+.con-box {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.seperator-con {
+  border: dotted  #E4F9F5 6px;
+  border-bottom: none;
+  width: 33%;
+  margin: 0 auto;
+}
+
+#quote-con {
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 40px;
+    width: 55%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.social {
+  margin: 20px auto;
+  padding: 20px;
+  width: 75%;
+  position: relative;
+}
+
+.form-con {
+  border: solid 1px #E4F9F5;
+  padding: 20px;
+}
+
+.form-div {
+  margin-left: 0;
+}
+
+.inputs {
+  margin: 0 auto;
+  width: 85%;
+  text-align: left;
+  line-height: 2;
+}
+
+/* .social-list {
+  margin: 0;
+  left: 0;
+  position: absolute;
+} */
+
+.end {
+  padding: 20px;
+}
+
+.linkedin {
+  padding-top: 20px;
+}
+
+.links {
+  color: #E4F9F5;
+  padding: 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.links:hover {
+  background-color: black;
+}
+
+.copyright {
+  padding-top:35px;
+}
